@@ -14,6 +14,7 @@ namespace _2курс4._2лаб
 
             Console.WriteLine("Сумма: " + Convert.ToDouble(A + B));
 
+            Console.WriteLine("Разность: " + Convert.ToString(A - B));
         }
     }
 }
