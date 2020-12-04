@@ -6,6 +6,7 @@ namespace _2курс4._2лаб
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Введите первое число: ");
             double A = Convert.ToDouble(Console.ReadLine());
 
@@ -15,6 +16,9 @@ namespace _2курс4._2лаб
             Console.WriteLine("Сумма: " + Convert.ToDouble(A + B));
 
             Console.WriteLine("Разность: " + Convert.ToString(A - B));
+
+            Console.WriteLine("Умножение: " + Convert.ToString(A * B));
+
         }
     }
 }
